@@ -1,0 +1,19 @@
+{
+  "name": "migration",
+  "version": "1.0.0",
+  "description": "You work at a Bitcoin exchange company. For some reason, the customer data is missing its full address. You have customer data only with the street address (building number and street name) but no city, state, country. Also, phone numbers are missing too. Luckily, your friends were able to restore the address information from a backup replica of a MongoDB instance. You need to write a migration/restoration script which will merge the data from the two sources.",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "3.2.0",
+    "mongodb": "3.5.7"
+  },
+  "devDependencies": {
+    "node-dev": "4.0.0"
+  }
+}
